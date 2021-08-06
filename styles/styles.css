@@ -58,6 +58,15 @@ body{
     font-family: Mulish-nav, Helvetica;
 }
 
+.top-nav a{
+    text-decoration: none;
+}
+
+.top-nav a:hover{
+    border-bottom: 1px solid #458FF6;
+    padding-bottom: 5px;
+}
+
 li a{
     color: #1F1534;
     cursor: pointer;
