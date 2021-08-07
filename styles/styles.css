@@ -64,7 +64,9 @@ body{
 
 .top-nav a:hover{
     border-bottom: 1px solid #458FF6;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
+    color: grey;
+    transition: ease-in-out 300ms
 }
 
 li a{
@@ -112,6 +114,12 @@ li a{
 .illustration-div{
     width: 693px;
     height: 480px;
+    transition: ease-in 300ms transform;
+    
+}
+
+.illustration-div:hover{
+    transform:scale(0.9) translate(30px, 20px);
 }
 
 .illustration-img{
@@ -175,7 +183,13 @@ li a{
     margin-right: 30px;
     border-radius: 10px;
     box-shadow: 0 0 1px #888888;
+    transition: ease-in 300ms transform;
+
     padding: 20px;
+}
+
+.services:hover{
+    transform: scale(1.08);
 }
 
 .services-img{
@@ -361,3 +375,11 @@ li a{
 .elipsis{
     margin-right: 10px;
 }
+
+/* Mobile view */
+
+/* @media screen and (max-width: 600px) {
+    body{
+        display: none;
+    }
+} */
