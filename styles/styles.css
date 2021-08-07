@@ -109,6 +109,15 @@ li a{
     background-color: #458FF6;
     color: white;
     font-family:  Mulish-extraLight, Helvetica;
+    transition: ease-out 300ms;
+    font-weight: bold;
+}
+
+.consult-btn:hover{
+    background-color: white;
+    border: 0.7px solid #458FF6;
+    color: #458FF6;
+    transform: scale(1.09);
 }
 
 .illustration-div{
@@ -234,6 +243,14 @@ li a{
     color: #458FF6;
     font-family: Mulish-semiBold, Helvetica;
     margin-top: 30px;
+    transition: ease-in 300ms;
+}
+
+.learn-more-btn:hover{
+    background-color: #458FF6;
+    border: none;
+    transform: scale(1.08);
+    color: white;
 }
 
 .health-provider-div{
