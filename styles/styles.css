@@ -39,8 +39,11 @@ nav{
 }
 
 .logo-img{
-    /* margin-top: 56px;
-    margin-left: 191px; */
+    transition: ease-in 300ms;
+}
+
+.logo-img:hover{
+    transform: translate(5px, 0px);
 }
 
 body{
